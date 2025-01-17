@@ -9,7 +9,7 @@ const SearchBar = () => {
   const [visible, setVisible] = useState(false)
   useEffect(
     ()=>{
-if (location.pathname.includes('home')){
+if (location.pathname.includes('Home')){
 setVisible(true)
 }
 else{
